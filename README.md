@@ -12,7 +12,7 @@ A common problem many people face is having a fridge full of ingredients but no 
 
 This project uses the Spoonacular API, which provides a comprehensive database of recipes, ingredients, and nutritional information. The specific endpoint being used is the "Find Recipes by Ingredients" feature, which accepts a list of ingredients and returns matching recipes along with details like cooking time, servings, and instructions.
 
-API Reference: https://spoonacular.com/food-api
+API Reference:https://dummyjson.com/recipes
 
 ## Planned Features
 
