@@ -1,0 +1,70 @@
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+
+.video-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    opacity: 0.35;       
+}
+
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.55);
+}
+.par {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 500px;
+    
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    
+    transition: transform 0.3s ease;
+}
+.par:hover {
+    transform: scale(1.05);
+}
+.par h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.par p {
+    font-size: 14px;
+    color: white;
+}
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.par img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.par {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
